@@ -35,7 +35,7 @@ def intersectionoftwolines_y(m1, b1, m2, b2):
     # Calculate y for the point where two equations:
     # y = (m1 * x) + b1 and y = (m2 * x) + b2 intersect.
     if m1 and m2 != 0.0:                        #If-else statement needed becuase you cannot divide
-        y = ((b1/m1)-(b2/m2))/((1/m1)-(1/m2))   #by zero and one of the test cases has m1 and m2 = 0
+        y = ((b1/m1)-(b2/m2))/((1/m1)-(1/m2))   #by zero and one of the test cases has m1 and b1 = 0
     elif m1 == 0.0:
         y = b1
     else:
